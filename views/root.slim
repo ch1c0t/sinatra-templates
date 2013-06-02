@@ -1,0 +1,7 @@
+script src="assets/root"
+
+p Content from root.slim
+div ng-app="App" ng-controller="PartialCtrl"
+  select ng-model="current" ng-options="partial for partial in partials"
+    option value="" without any partial
+  ng-include src="'partials/' + current + '.html'"

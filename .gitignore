@@ -1,0 +1,17 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# Bundler
+Gemfile
+Gemfile.lock
+
+# Bower components
+assets/components

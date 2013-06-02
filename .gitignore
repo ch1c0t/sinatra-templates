@@ -10,7 +10,6 @@
 *.sass-cache
 
 # Bundler
-Gemfile
 Gemfile.lock
 
 # Bower components

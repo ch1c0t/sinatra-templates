@@ -10,7 +10,7 @@ Example app with sinatra, angular, slim, and livescript.
 
 ## How to start?
 
-1. `git clone git@github.com:ch1c0t/angular-with-slim-example.git`
+1. `git clone https://github.com/ch1c0t/angular-with-slim-example`
 2. `bundle install`
 3. `bower install`
 4. `bundle exec rackup -p 1111`

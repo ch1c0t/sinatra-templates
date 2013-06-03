@@ -15,6 +15,7 @@ Example app with sinatra, angular, slim, and livescript.
 3. `bower install`
 4. `bundle exec rackup -p 1111`
 
-## Copyright
+## License
 
-Copyright (c) 2013 Anatoly Chernow.
+This example is released under the [WTFPL](http://www.wtfpl.net).
+Please, strongly obey the terms of the license.

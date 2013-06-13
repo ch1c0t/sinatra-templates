@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "angular":                    "latest",
-    "bootstrap.css":              "latest"
+    "bower-bootstrap-css":        "latest"
     }
 }

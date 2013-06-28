@@ -1,9 +1,9 @@
+require './resources/partials_resource'
+
 class App < Sinatra::Base
+  use PartialsResource
+
   get '/' do
     slim :root
-  end
-
-  get '/partials/*.html' do |partial|
-    slim :"partials/#{partial}", layout: false
   end
 end

@@ -7,9 +7,9 @@ map '/assets' do
   env = Sprockets::Environment.new
   env.register_engine '.ls', LiveScript::TiltTemplate
 
-  env.append_path 'assets/js'
-  env.append_path 'assets/css'
-  env.append_path 'assets/components'
+  %w! js css components!.each do |name|
+    env.append_path "assets/#{name}"
+  end
 
   run env
 end

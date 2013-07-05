@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'slim'
-gem 'thin'
 
 group :assets do
   gem 'sprockets'

@@ -1,4 +1,4 @@
-require './resources/partials_resource'
+require './resources/partials/partials_resource'
 
 class App < Sinatra::Base
   use PartialsResource

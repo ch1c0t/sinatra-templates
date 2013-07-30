@@ -2,6 +2,6 @@
   "name": "project_name",
   "dependencies": {
     "angular":                    "latest",
-    "bower-bootstrap-css":        "latest"
+    "pure":                       "latest"
     }
 }

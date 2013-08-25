@@ -1,4 +1,4 @@
-Pathname.glob("./resources/*/" "*.rb").each { |file| require file }
+Pathname.glob("./resources/*/*.rb").each { |file| require file }
 
 class App < Sinatra::Base
   use PartialsResource

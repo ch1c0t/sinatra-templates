@@ -6,7 +6,7 @@ gem 'slim'
 group :assets do
   gem 'sprockets'
   gem 'sass'
-  gem 'livescript_sprockets', github: 'ch1c0t/livescript_sprockets'
+  gem 'coffee-script'
 end
 
 group :development do

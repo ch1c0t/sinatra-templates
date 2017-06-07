@@ -5,7 +5,6 @@ require './app'
 
 map '/assets' do
   env = Sprockets::Environment.new
-  env.register_engine '.ls', LiveScript::TiltTemplate
 
   %w!
     js
